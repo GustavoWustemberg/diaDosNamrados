@@ -55,8 +55,23 @@ b {
 }
 
 .swiper {
-    width: 240px;
-    height: 320px;
+    width: 220px;
+    height: 300px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    .swiper {
+        width: 400px;
+        height: 500px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .swiper {
+        width: 600px;
+        height: 700px;
+    }
 }
 
 .swiper-slide {
@@ -202,6 +217,13 @@ b {
     gap: 5px;
 }
 
+@media screen and (min-width: 1200px) {
+    .progress {
+        width: 20rem;
+    }
+    
+}
+
 #seekBar {
     width: 100%;
     accent-color: white;
@@ -219,7 +241,7 @@ b {
     color: white;
     width: 40px;
     height: 40px;
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
     align-self: flex-end;
     margin-bottom: 20px;
