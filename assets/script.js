@@ -29,8 +29,8 @@ var swiper = new Swiper(".mySwiper", {
       months += 12;
     }
 
-    document.getElementById("completeDate").innerText = `${years} ano${years > 1 ? 's' : ''}, ${months} ${months > 1 ? 'meses' : 'mês'} e ${days}.`;
-    document.getElementById("qtdDays").innerText = `Um total de dias: ${diffDays}`;
+    document.getElementById("completeDate").innerText = `${years} ano${years > 1 ? 's' : ''}, ${months} ${months > 1 ? 'meses' : 'mês'} e ${days} dias.`;
+    document.getElementById("qtdDays").innerText = `Um total de ${diffDays} dias.`;
 
     const audio = document.getElementById("audio");
     const playPause = document.getElementById("playPause");
