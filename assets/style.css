@@ -62,8 +62,8 @@ b {
 }
 
 .swiper {
-    width: 200px;
-    height: 340px;
+    width: 180px;
+    height: 320px;
 }
 
 @media screen and (min-width: 700px) and (max-width: 1200px) {
@@ -219,7 +219,7 @@ b {
 
 
 .progress {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 5px;

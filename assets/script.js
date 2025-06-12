@@ -29,8 +29,8 @@ var swiper = new Swiper(".mySwiper", {
       months += 12;
     }
 
-    document.getElementById("completeDate").innerText = `Se passaram: ${years} ano${years > 1 ? 's' : ''}, ${months} ${months > 1 ? 'meses' : 'mês'} e ${days} dias desde que te pedi em namoro.`;
-    document.getElementById("qtdDays").innerText = `Total de dias: ${diffDays}`;
+    document.getElementById("completeDate").innerText = `${years} ano${years > 1 ? 's' : ''}, ${months} ${months > 1 ? 'meses' : 'mês'} e ${days}.`;
+    document.getElementById("qtdDays").innerText = `Um total de dias: ${diffDays}`;
 
     const audio = document.getElementById("audio");
     const playPause = document.getElementById("playPause");
