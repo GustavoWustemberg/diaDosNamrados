@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <link rel="icon" href="./assets/images/love.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <header>
+    <p>Feliz dia dos namorados</p>
+    <img class="logo" src="./assets/images/love.png" alt="heart" class="heart">
+  </header>
+  
+  <div class="custom-player">
+    <img src="https://i.scdn.co/image/ab67616d0000b273a0c492184b0f78273cb15569" alt="Aliança" class="Aliança">
+    <div class="infoAndControls">
+      <div class="info">
+        <strong>Aliança</strong><br>
+        <small>Tribalistas</small>
+      </div>
+      <div class="controls">
+        <button id="playPause">►</button>
+        <div class="progress">
+          <input type="range" id="seekBar" value="0" max="100">
+          <div class="times">
+            <span id="currentTime">00:00</span>
+            <span id="totalTime">00:00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio id="audio" src="./assets/audio/aliança.mp3"></audio>
+  </div>
+  <!-- Swiper -->
+  <!-- <section class="love-box">
+    <h2>Feliz dia dos namorados</h2>
+  </section> -->
+
+  <section class="love-box">
+    <h2>Contador do namoro</h2>
+    <p id="completeDate"></p>
+    <p id="qtdDays"></p>
+  </section>
+
+  <section class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">12/04/2024</div>
+      <div class="swiper-slide">28/04/2024</div>
+      <div class="swiper-slide">03/06/2024</div>
+      <div class="swiper-slide">11/06/2024</div>
+      <div class="swiper-slide">30/09/2024</div>
+      <div class="swiper-slide">25/12/2024</div>
+      <div class="swiper-slide">01/01/2025</div>
+      <div class="swiper-slide">07/01/2025</div>
+      <div class="swiper-slide">26/01/2025</div>
+      <div class="swiper-slide">04/03/2025</div>
+    </div>
+  </section>
+
+  <section class="love-box">
+    <h2>Meu amor</h2>
+    <p>Esse é o nosso segundo Dia dos Namorados juntos, e é difícil colocar em palavras o quanto sou grato por ter você na minha vida. Às vezes, me pego pensando em como era tudo antes de te conhecer, e percebo que hoje não consigo mais imaginar um mundo sem o teu sorriso, sem o teu carinho, sem a tua presença.</p>
+    <p>Nesse último ano, vivi algo completamente novo ao seu lado. Você despertou em mim um sentimento tão profundo e verdadeiro que tudo o que eu mais quero é te cuidar, te abraçar forte, te encher de beijos e te lembrar todos os dias do quanto você é amada.</p>
+    <p>Eu te amo com tudo o que sou. Tenho tanto orgulho da mulher incrível que você é: inteligente, dedicada, cheia de garra e com um coração enorme. Te ver se esforçando, se doando, buscando sempre ser a sua melhor versão. Me inspira todos os dias.</p>
+    <p>Hoje é só o nosso segundo Dia dos Namorados, mas eu sei, com toda a certeza do mundo, que muitos outros ainda virão. Porque foi com você que eu descobri o que é amor de verdade. E é com você que eu escolhi caminhar, dividir a vida e construir um futuro.</p>
+    <p><b>Eu te amo demais</b></p>
+  </section>
+
+  <footer>
+    <p>Feito com amor por Gustavo Wustemberg</p>
+  </footer>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
