@@ -52,13 +52,13 @@ var swiper = new Swiper(".mySwiper", {
     playPause.addEventListener("click", () => {
       if (audio.paused) {
         audio.play().then(() => {
-          playPause.textContent = "⏸";
+          playPause.innerHTML = '<i class="fas fa-pause"></i>';
         }).catch((err) => {
           console.error("Erro ao tentar tocar o áudio:", err);
         });
       } else {
         audio.pause();
-        playPause.textContent = "►";
+        playPause.innerHTML = '<i class="fas fa-play"></i>';
       }
     });
 
