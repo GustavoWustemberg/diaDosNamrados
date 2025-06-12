@@ -62,7 +62,7 @@ b {
 }
 
 .swiper {
-    width: 220px;
+    width: 200px;
     height: 340px;
 }
 
@@ -219,17 +219,10 @@ b {
 
 
 .progress {
-    width: 11rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
-
-@media screen and (min-width: 1200px) {
-    .progress {
-        width: 20rem;
-    }
-    
 }
 
 #seekBar {
