@@ -128,7 +128,7 @@ b {
 .love-box {
     margin: 20px 0;
     border: #ff3766 2px solid;
-    width: 85%;
+    width: 80%;
     border-radius: 20px;
     padding: 20px;
     position: relative;
@@ -169,9 +169,9 @@ b {
     justify-content: center;
     gap: 15px;
     background-color: #ff3766;
-    padding: 15px;
+    padding: 20px;
     border-radius: 20px;
-    width: 90%;
+    width: 80%;
     font-family: sans-serif;
     color: white;
 }
